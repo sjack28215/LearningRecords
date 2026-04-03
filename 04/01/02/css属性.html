@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css常用属性</title>
+    <style>
+        .inline-block{
+            width: 40px;
+        }
+        .inline{
+            background-color: blue;
+            height:50px;
+            width: 50px;
+        }
+        .span-inline-block{
+            
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font: bolder 50px 'KaiTi';">font复合属性</h1>
+    <p style="line-height: 50px;">调节行与行之间的距离</p>
+    <!-- width height   块级元素 行元素 -->
+    <!-- 行内块元素 -->
+    <div class="block">这是一个块元素</div>
+    <!-- 行内元素没有办法添加高度的 -->
+    <span class="inline">这是一个行内元素</span>
+    <!-- img行内块元素 -->
+    <img src="logo.png" alt="这是一个图片" class="inline-block">
+    <!-- 一行可以出现多个行内块元素 -->
+
+    <!-- 三种元素可以相互转化   display转换 -->
+     <div class="div-inline">这是一个转化的行内元素</div>
+     <span class="span-inline-block">行内块元素</span>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            background-color: green;
+            border:solid;
+        }
+        .box1{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            margin-bottom:50px;
+            margin-top: 50px;
+        }
+        .box2{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            margin-top:30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 在这个实例中  -->
+    <!-- parent整体向下移动了50px和这两个box之间的外边距也是 -->
+    <!-- 这两种都是相当于外边距折叠 -->
+     <!-- css规定 在同一BFC中 当块级盒子的垂直外边距直接接触的时候 
+      这两个外边距会折叠成一个-->
+    <div class="parent">
+        <!-- parent没有满足额外的BFC创建条件 没有创建新的BFC -->
+         <!-- 父子元素折叠 -->
+        <div class="box1">这是一个盒子</div>
+        <!-- 兄弟元素折叠 -->
+        <div class="box2">这是一个盒子</div>
+
+
+        <!-- 不折叠更好的方案 创建一个新的BFC   如何创建一个新的BFC呢-->
+    </div>
+</body>
+</html>
