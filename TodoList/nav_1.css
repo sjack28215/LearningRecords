@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background: #FFF;
+    color: #000;
+    font-family: "Gotham", Helvetica, Arial, PingFangSC-Regular, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 160%;
+}
+
+.navbar ul,li{
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+
+.navbar .container .logo{
+    float:left;
+    width: 50px;
+}
+
+.navbar .nav-main ul li a{
+    color: inherit;
+    display: block;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 5px 10px 5px;
+    text-transform: uppercase;
+}
+.navbar{
+    height: 48px;
+    box-sizing: content-box;
+}
+
+.navbar .nav-main ul li a{
+    float:left;
+    padding: 5px 10px 5px;
+    margin: 0;
+}
+.navbar .container .more{
+    display:block;
+    float:right;
+}
+.welcome{
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+a{
+    color:#00A862;
+}
+footer{
+    width: 100%;
+    height: auto;
+}
+
+.signin{
+    float:left;
+    margin-right: 24px;
+    padding: 3px 0;
+}
+
+.signin img{
+    margin-right:4px ;
+    margin-top: -3px;
+    vertical-align: middle;
+}
+
+.btn{
+    padding: 10px 25px; 
+    border: 1px solid #00a862; 
+    color: #00a862; 
+    text-decoration: none; 
+    border-radius: 50px; 
+    margin-right: 10px;
+    font-weight: 500;
+}
+.btn_register {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    padding: 2px 12px;
+}
+
+.coffeehouse .tag{
+    font-size: 14px;
+    font-size: 1.4rem;
+    background: #C2A661;
+    color: #FFF;
+    position: absolute;
+    padding: 4px 12px;
+    left: 0px;
+    top: 6px;
+}
+#content{
+    padding-bottom: 55px;
+    position:relative;
+    overflow: hidden;
+    
+}
+
+#content .tag_ad{
+    position:absolute;
+    top:10px;
+    right:10px;
+    padding: 0 6px;
+    color:white;
+    background-color: #000;
+    font-size: 1.2em;
+    line-height: 180%;
+    opacity: 0.6;
+    border-radius:2px;
+    z-index: 200;
+}
+.tmall{
+    padding: 40px;
+    text-align: center; 
+}
+a{
+    text-decoration: none; 
+}
+.card-text{
+    font-weight: 700;
+    font-size:1.6em;
+    color: black;
+}
+.grid-4 .margin2{
+    color: rgba(0, 0, 0, 0.56) !important;
+}

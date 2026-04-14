@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+    background-color: #fff;
+    color: rgba(0,0,0,0.87);
+    
+}
+
+.navbar {
+    background-color: #fff;
+    height:48px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+/* 3. 容器：这是你代码里的核心包裹层，我们用 Flexbox 实现两端对齐 */
+/* .navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100%;
+    padding: 0 24px;
+    max-width: 1440px; 
+    margin: 0 auto;
+} */
+
+/* 4. Logo 样式 */
+/* .logo img {
+    height: 36px; 
+    display: block;
+} */
+
+/* 5. 导航菜单：去掉列表样式，横向排列 */
+/* .nav-main ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+} */
+
+/* .nav-main li {
+    margin: 0 16px;
+}
+
+.nav-main li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    transition: color 0.2s ease;
+} */
+/* 
+.nav-main li a:hover {
+    color: #006241; 
+} */
+
+/* 6. 右侧“更多”图标 */
+/* .navbar a[href="/"] img[alt="更多"] {
+    width: 24px;
+    height: 24px;
+    display: block;
+} */
+
+/* 7. 下方主体内容（登录表单区域） */
+/* .body {
+    max-width: 480px;
+    margin: 60px auto;
+    padding: 0 20px;
+    text-align: left;
+} */
+
+/* .welcome p {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 40px;
+} */
+
+/* 8. 登录表单美化：星巴克风格通常是只有底边线的输入框 */
+/* .form-group {
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: rgba(0,0,0,0.56);
+    margin-bottom: 8px;
+} */
+
+/* .form-group input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.12); 
+    padding: 8px 0;
+    font-size: 18px;
+    outline: none;
+    transition: border-color 0.3s;
+} */
+
+/* .form-group input:focus {
+    border-bottom-color: #006241; 
+}
+
+.eye-icon {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    cursor: pointer;
+} */
+
+/* 9. 按钮组：星巴克招牌的圆角药丸按钮 */
+/* .button-group {
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+} */
+
+/* .button-group button {
+    flex: 1;
+    height: 48px;
+    border-radius: 24px; 
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+    border: 1px solid #006241;
+} */
+
+/* 登录按钮：绿底白字 */
+/* .button-group button[type="submit"] {
+    background-color: #006241;
+    color: #fff;
+} */
+
+/* 注册按钮：白底绿字 */
+/* .button-group button[type="button"] {
+    background-color: #fff;
+    color: #006241;
+}
+
+.button-group button:hover {
+    opacity: 0.8;
+} */

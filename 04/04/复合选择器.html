@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>复合选择器</title>
+    <style>
+        /* 后代选择器 */
+        .container p{
+            background-color: red;
+            color: blue;
+        }
+
+        .father > p{
+            background-color: red;
+
+        }
+
+        h2,.a{
+            background-color: blue;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p>这是一个子孩子</p>
+        <div class="son">
+            <p>这个也被选中 因为是后代</p>
+        </div>
+    </div>
+
+    <!-- 孩子选择器 -->
+    <div class="father">
+        <p>这是一个孩子</p>
+        <div>
+            <p>这个是孙子</p>
+        </div>
+    </div>
+
+    <!-- 并集选择器 -->
+    <h2>这是一个标题</h2>
+    <div class="a">这是一类</div>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>基础选择器</title>
+    <style>
+        /* 通配选择器 */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+        }
+        /* 属性选择器 */
+        /* 所有带 title 属性的元素 */
+        [title] {
+        color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="father">这是一个容器</div>
+    <h1>这是一个标题</h1>
+
+    <!-- 属性 -->
+    <input type="text" placeholder="用户名">
+    <input type="password" placeholder="密码">
+    <div title="提示文字">鼠标放上来有提示</div>
+</body>
+</html>
