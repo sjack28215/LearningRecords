@@ -85,16 +85,6 @@ footer{
     padding: 2px 12px;
 }
 
-.coffeehouse .tag{
-    font-size: 14px;
-    font-size: 1.4rem;
-    background: #C2A661;
-    color: #FFF;
-    position: absolute;
-    padding: 4px 12px;
-    left: 0px;
-    top: 6px;
-}
 #content{
     padding-bottom: 55px;
     position:relative;
@@ -129,4 +119,116 @@ a{
 }
 .grid-4 .margin2{
     color: rgba(0, 0, 0, 0.56) !important;
+}
+.grid-4 .caption{
+    color: #C2A661;
+    font-weight: 400;
+}
+
+.grid-4 ul li a{
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    background: white;
+    border-radius: 2px;
+    display: inline-block;
+    position: relative;
+    padding: 18px;
+    text-align: center;
+    width: 100%;
+}
+
+.grid-4 img{
+    margin-top: -48px;
+    height: 72px;
+    margin-bottom: -24px;
+}
+
+.coffeehouse{
+    background-image: linear-gradient(-180deg, #FCFCFC 0%, #FFF 100%);
+    padding: 36px 0 36px 0;
+    margin-bottom: -24px;
+}
+
+.wrapper_center{
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 768px;
+    width: 100%;
+}
+
+.scroll > *{
+    margin-bottom: -24px;
+    padding-bottom: 24px;
+}
+.scroll{
+    margin-right: 24px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+
+.wrapper {
+    position: relative;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 768px;
+    width: 100%;
+}
+.wrapper > div{
+    display:table;
+}
+.card {
+    width: 288px;
+    margin-right: 16px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    position: relative;
+    padding: 18px;
+
+}
+
+.preview{
+    height: 168px;
+    width: calc(100% + 38px);
+    margin-top: -18px;
+    margin-left: -19px;
+    margin-right: -19px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 auto 6px;
+}
+.coffeehouse .tag{
+    font-size: 1.4rem;
+    background: #C2A661;
+    color: #FFF;
+    position: absolute;
+    padding: 4px 12px;
+    left: 0px;
+    top: 6px;
+}
+.card strong{
+    white-space: initial;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    font-weight: normal;
+    text-align: left;
+    width: 100%;
 }

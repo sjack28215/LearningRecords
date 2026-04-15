@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "f896e8f49a9dbf43",
+    "type": "split",
+    "children": [
+      {
+        "id": "a5219f1674c086c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a22e7e7384cde4d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "04/14/选择排序.gif"
+              },
+              "icon": "lucide-image",
+              "title": "选择排序"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "306459a89555419c",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca3178e37f637c8f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c10fef10a4ad1cc9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "b800ef75120fcdbe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "5851145f3ff884cf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7c545763e21ad4c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "94a3c6fa00a3624a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c4a4a9d5561a403",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "04/14/定积分的换元法与分部积分法.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "定积分的换元法与分部积分法 的反向链接列表"
+            }
+          },
+          {
+            "id": "c361029ecc3d687d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "04/14/定积分的换元法与分部积分法.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "定积分的换元法与分部积分法 的出链列表"
+            }
+          },
+          {
+            "id": "060ef14448d287be",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "ba95043b26c9f0cd",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "3574946fb9ac900f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "04/14/定积分的换元法与分部积分法.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "定积分的换元法与分部积分法 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "9a22e7e7384cde4d",
+  "lastOpenFiles": [
+    "04/14/选择排序.md",
+    "04/14/外部排序.md",
+    "04/14/定积分的换元法与分部积分法.md",
+    "04/14/堆排序.gif",
+    "04/14/归并排序.gif",
+    "04/15/plan.md",
+    "04/15",
+    "04/14/未命名.md",
+    "04/14/归并排序.md",
+    "04/14/基数排序.md",
+    "04/14/计数排序.md",
+    "04/14/算法比较.png",
+    "04/14/选择排序.gif",
+    "04/14/plan.md",
+    "04/14/基数排序.gif",
+    "04/14/未确认 371201.crdownload",
+    "04/14/未确认 534633.crdownload",
+    "04/14/未确认 992912.crdownload",
+    "04/03/4_3.md",
+    "04/03/boreder_style.png",
+    "04/03/position_fixed.png",
+    "04/03/BFC_1.png",
+    "04/03/absolute.png",
+    "04/03/BFC_0.png",
+    "04/08/08.md",
+    "04/07/04-07.md",
+    "04/10/js_01.md",
+    "图的存储方式.md",
+    "欢迎.md",
+    "03/3_31.md",
+    "03/3_30.md",
+    "03/3_24.md",
+    "03/3_27.md",
+    "03/style.css",
+    "03/minimal-table.css",
+    "03/html属性.html",
+    "03/html区块.html",
+    "03/css选择器.html",
+    "03/html表单.html",
+    "04/13/选择排序.md",
+    "04/13/插入排序.md",
+    "04/13/排序.md",
+    "04/13/交换排序.md",
+    "04/11/散列表.md",
+    "04/10/10.md"
+  ]
+}
